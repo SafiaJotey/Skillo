@@ -1,0 +1,19 @@
+.headerArea{
+  background-color:#FAE62D;
+  color: #05386b;
+  font-weight: 700;
+  
+font-family: 'Noto Sans', sans-serif;
+font-size: 18px;
+
+}
+
+.headerArea .logo{
+    font-family: 'Birthstone', cursive;
+    font-size: 26px;
+}
+.link{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+}

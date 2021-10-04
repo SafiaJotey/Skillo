@@ -1,0 +1,33 @@
+.footer{
+
+    background-color: #1FC58E;
+    color: #191414;
+    font-weight: 700;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.footer h1{
+    font-family: 'Birthstone', cursive;
+    font-size: 26px;
+}
+
+.footer image{
+    width: 100%;
+}
+.social-icon{
+    list-style: none;
+    
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icon a{
+    font-size: 50px;
+    color:#191414; 
+    margin: 20px;
+    text-align: center;
+}

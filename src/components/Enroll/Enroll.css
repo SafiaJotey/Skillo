@@ -1,0 +1,9 @@
+.form{
+    width: 60%;
+    margin: auto;
+    background-color:#59ffc8;
+    border:2px solid #FAE62D;
+    border-radius:10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}

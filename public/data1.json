@@ -1,0 +1,26 @@
+[
+    {
+     "Course":"Responsive Web Design",
+     "Img":"https://www.creativeitinstitute.com/front/images/courses/responsive-web-design.png",
+     
+     "price":12000
+  },
+  {
+     "Course":"Professional Web Development",
+     "Img":"https://www.creativeitinstitute.com/front/images/courses/professional-web-development.png",
+     
+     "price":20000
+  },
+  {
+     "Course":"Android App Development",
+     "Img":"https://www.creativeitinstitute.com/front/images/courses/android-app-development.png",
+     
+     "price":18000
+  },
+  {
+     "Course":"UX/UI Design",
+     "Img":"https://www.creativeitinstitute.com/front/images/courses/ui-ux-design.png",
+     
+     "price":18000
+  }
+]

@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
+.home h1{
+    color: #1FC58E;
+   
+    font-size: 68px;
+    width: 700;
+}
+.home span{
+    color:#FAE62D;
+    
+    font-size: 68px;
+    width: 700;
+}
+.home img{
+    width: 80%;
+}
+.home p{
+    font-size: 22px;
+    color: rgb(73, 72, 72);
+}
+
+.home Button{
+    color: #00583b ;
+    background-color:#FAE62D;;
+    font-size: 20px;
+    font-weight: 700;
+    border: 3px solid #1FC58E ;
+    border-radius: 5px;
+}
+.home Button:hover{
+    
+    color: #1FC58E;
+   background-color: transparent;
+   border: 3px solid #1FC58E ;
+}
