@@ -1,16 +1,19 @@
 .about{
+    margin-top: -50px;
     text-align: left;
 }
 .about{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding: 4%;
+    
 }
 .about h1{
     color: #1FC58E;
     text-align: left;
     font-size: 68px;
     width: 700;
+    margin-top: -30px;
 }
 .about h3{
     color:#FAE62D;
@@ -27,6 +30,7 @@
 }
 .about img{
     width: 80%;
+    margin-top: 120px;
 }
 .about p{
     font-size: 22px;

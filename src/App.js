@@ -1,3 +1,5 @@
+// Import assets
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Footer from './components/Footer/Footer';
@@ -27,15 +29,18 @@ function App() {
   },[])
   return (
     <div className="App">
-       
-      <BrowserRouter>
-      <Header></Header>
-      <Switch>
+       {/* route */}
+         <BrowserRouter>
+         
+                <Header></Header>
+                 <Switch>
+                          {/* ROUTE FOR HOME PAGE*/}
 
-          <Route path="/home">
-              <Home></Home>
-              <h1>Our services</h1>
-         <Row xs={1} md={2} className="g-4">
+
+                        <Route path="/home">
+                            <Home></Home>
+                            <h1>Our services</h1>
+                            <Row xs={1} md={2} className="g-4">
           {
             courses.map(course=><Service 
                key={course.Course}
@@ -43,44 +48,49 @@ function App() {
             ></Service>)
           }
         </Row>
-          </Route>
-          <Route exact path="/">
-              <Home></Home>
-              <h1>Our services</h1>
-              <Row xs={1} md={2} className="g-4">
-          {
-            courses.map(course=><Service 
-               key={course.Course}
-               course={course}
-            ></Service>)
-          }
-        </Row>
-          </Route>
-          <Route path="/about">
-              <About></About>
-          </Route>
-          
-          <Route path="/allServices">
-                  <h1>Our All services</h1>
-                <Row xs={1} md={2} className="g-4">
-                  {
-                    allCourses.map(course=><Service 
-                      key={course.Course}
-                      course={course}
-                    ></Service>)
-                  }
-                </Row>
-          </Route>
-          <Route path="/enroll">
-              <Enroll></Enroll>
-          </Route>
+                        </Route>
+                        <Route exact path="/">
+                          <Home></Home>
+                          <h1>Our services</h1>
+                          <Row xs={1} md={2} className="g-4">
+                      {
+                        courses.map(course=><Service 
+                          key={course.Course}
+                          course={course}
+                        ></Service>)
+                      }
+                    </Row>
 
-          <Route >
-              <NotFound></NotFound>
-          </Route>
+                     {/* ROUTE FOR ABOUT PAGE*/}
+                      </Route>
+                        <Route path="/about">
+                        <About></About>
+                    </Route>
+                              {/* ROUTE FOR sERVICES PAGE*/}
+                        <Route path="/allServices">
+                          <h1>Our All services</h1>
+                        <Row xs={1} md={2} className="g-4">
+                          {
+                            allCourses.map(course=><Service 
+                              key={course.Course}
+                              course={course}
+                            ></Service>)
+                          }
+                        </Row>
+
+                         {/* ROUTE FOR ENROLL PAGE*/}
+                  </Route>
+                         <Route path="/enroll">
+                    <h1>Enroll Your Courses</h1>;
+                      <Enroll></Enroll>
+                  </Route>
+
+                         <Route >
+                        <NotFound></NotFound>
+                    </Route>
           
-      </Switch>
-      </BrowserRouter>
+                </Switch>
+          </BrowserRouter>
       
       
  
