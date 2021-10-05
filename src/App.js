@@ -90,6 +90,7 @@ function App() {
                     </Route>
           
                 </Switch>
+                <Footer></Footer>
           </BrowserRouter>
       
       
@@ -98,7 +99,7 @@ function App() {
         
       
      
-      <Footer></Footer>
+      
     </div>
   );
 }
