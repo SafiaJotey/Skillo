@@ -1,6 +1,6 @@
 import React from 'react';
 import './Service.css';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 
 const Service = (props) => {
     const{Course,Img,price}=props.course;
@@ -14,6 +14,7 @@ const Service = (props) => {
           <Card.Text>
             Price: {price}
           </Card.Text>
+          <Button variant="warning">Details</Button>
         </Card.Body>
       </Card>
     </Col>

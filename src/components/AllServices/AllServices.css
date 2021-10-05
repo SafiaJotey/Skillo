@@ -1,0 +1,14 @@
+.card Button{
+    color: #00583b ;
+    background-color:#FAE62D;;
+    font-size: 20px;
+    font-weight: 700;
+    border: 3px solid #1FC58E ;
+    border-radius: 5px;
+}
+.card Button:hover{
+    
+    color: #1FC58E;
+   background-color: transparent;
+   border: 3px solid #1FC58E ;
+}

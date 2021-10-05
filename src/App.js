@@ -85,7 +85,7 @@ function App() {
                       <Enroll></Enroll>
                   </Route>
 
-                         <Route >
+                         <Route path="*">
                         <NotFound></NotFound>
                     </Route>
           

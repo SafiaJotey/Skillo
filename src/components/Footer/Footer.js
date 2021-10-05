@@ -9,13 +9,15 @@ const Footer = () => {
         <div>
   <Row className="footer">
     <Col >
-     <h1>SKILLO  <i class="fas fa-running"></i></h1>
+    <div className="description" >
+    <h1>SKILLO  <i class="fas fa-running"></i></h1>
      <p>SKILLO is an American massive open online course provider founded in 2012 by Stanford University computer science professors Andrew Ng and Daphne Koller. Coursera works with universities and other organizations to offer online courses</p>
      <ul className="social-icon">
         <li><a href="https://twitter.com"><i class="fab fa-facebook-square"></i></a></li>
         <li><a href="https://twitter.com"><i class="fab fa-linkedin"></i></a></li>
         <li><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
     </ul>
+    </div>
     </Col>
     <Col>
     
